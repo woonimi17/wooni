@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 900px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info ul li {
+            margin: 5px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .experience, .education {
+            display: flex;
+            flex-direction: column;
+        }
+        .experience div, .education div {
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills span {
+            background: #007bff;
+            color: white;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>홍길동</h1>
+            <p>풀스택 웹 개발자 | UI/UX 디자인</p>
+        </div>
+        
+        <div class="section contact-info">
+            <h2>연락처</h2>
+            <ul>
+                <li>Email: example@example.com</li>
+                <li>Phone: 010-1234-5678</li>
+                <li>GitHub: github.com/yourusername</li>
+                <li>LinkedIn: linkedin.com/in/yourprofile</li>
+            </ul>
+        </div>
+        
+        <div class="section experience">
+            <h2>경력</h2>
+            <div>
+                <strong>ABC Corp</strong> - 웹 개발자 (2020 - 현재)
+                <p>주요 업무: 프론트엔드 & 백엔드 개발, UI/UX 개선</p>
+            </div>
+            <div>
+                <strong>XYZ Tech</strong> - 인턴 개발자 (2019 - 2020)
+                <p>웹 애플리케이션 유지보수 및 기능 추가</p>
+            </div>
+        </div>
+        
+        <div class="section education">
+            <h2>학력</h2>
+            <div>
+                <strong>OO 대학교</strong> - 컴퓨터 공학 전공 (2016 - 2020)
+            </div>
+        </div>
+        
+        <div class="section skills">
+            <h2>기술</h2>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>MySQL</span>
+        </div>
+    </div>
+</body>
+</html>
